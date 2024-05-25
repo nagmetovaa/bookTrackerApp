@@ -36,6 +36,8 @@ dependencies:
   firebase_core:
   firebase_auth:
   share_plus: ^9.0.0
+  dart_quote:
+  lottie:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -59,7 +61,11 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/welcome/welcome.gif
+#    - assets/welcome/welcome.gif
+    - assets/welcome/animation_book.json
+    - assets/review/animation_review.json
+    - assets/quote/animation_quote.json
+    - assets/images/background_image.jpg
 
 
   # The following line ensures that the Material Icons font is

@@ -19,10 +19,9 @@ class BookList extends StatelessWidget {
     return BlocBuilder<BookBloc, BookState>(
         builder: (context, state) {
           if (state is BookEmptyState) {
-            return Center(
-              child:
-              Text('No data found or problem with the internet',
-              style: TextStyle(fontSize: 20.0),),
+            return Expanded(
+              // height: 200,
+              child: WelcomeGif(),
             );
           }
 

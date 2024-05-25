@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 enum PlaylistValues {
   readList,
   readingList,
-  willReadList
+  willReadList,
+  custom
 }
 
 class PlaylistEventHandler {
@@ -19,6 +20,8 @@ class PlaylistEventHandler {
       case PlaylistValues.willReadList:
         return 'Will read';
         break;
+      case PlaylistValues.custom:
+        return 'custom';
     }
   }
 }

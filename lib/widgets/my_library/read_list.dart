@@ -70,7 +70,7 @@ class _ReadListState extends State<ReadList> {
                                 title: Text(state.loadedPlaylist?[index].title),
                                 subtitle: Text(
                                     state.loadedPlaylist?[index].authorName),
-                                trailing: MyPopupMenuButton.showPopupMenu(context,state.loadedPlaylist?[index].title,state.loadedPlaylist?[index].authorName, state.loadedPlaylist?[index].isbn, showDeleteOption: true),
+                                trailing: MyPopupMenuButton.showPopupMenu(context,state.loadedPlaylist?[index].title,state.loadedPlaylist?[index].authorName, state.loadedPlaylist?[index].isbn, showOption: true),
                               );
                             }else{
                               return Container();

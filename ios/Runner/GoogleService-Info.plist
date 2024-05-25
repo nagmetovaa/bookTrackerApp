@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.bookTracker</string>
+	<string>kz.nagmet.bookTracker</string>
 	<key>PROJECT_ID</key>
 	<string>booktracker-40157</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:775234155731:ios:e2f716abbc3f5d1a335026</string>
+	<string>1:775234155731:ios:a0bae85da1b44cf2335026</string>
 </dict>
 </plist>

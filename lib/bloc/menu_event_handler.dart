@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 
 import '../widgets/my_library/delete_alert.dart';
 import '../widgets/my_library/playlist_action_sheet.dart';
+import '../widgets/my_library/playlist_add_quote.dart';
 import '../widgets/my_library/playlist_write_review.dart';
 import 'enum_menu_values.dart';
 
@@ -14,6 +15,9 @@ class MenuEventHandler {
         break;
       case MenuValues.writeReview:
         PlaylistWriteReview().showInputDialog(context, title, authorName,ISBN);
+        break;
+      case MenuValues.addQuote:
+        PlaylistAddQuote().showAddQuoteDialog(context, title, authorName, ISBN);
         break;
       case MenuValues.share:
         ShareToContact().shareOnPressed(title, authorName, ISBN);

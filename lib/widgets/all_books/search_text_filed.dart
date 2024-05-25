@@ -19,7 +19,7 @@ class SearchTextField extends StatelessWidget{
     return CupertinoSearchTextField(
           controller: controller,
           autofocus: true,
-          placeholder: 'Введите название книги или автора',
+          placeholder: 'Enter a title of a book or an author name',
           onChanged: (query) {
             bookBloc.add(BookEvent(controller.text));
             // searchQueryNotifier.value = query;

@@ -25,3 +25,37 @@
 //     );
 //   }
 // }
+
+import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
+
+
+class WelcomeGif extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            // Lottie.network(
+            //   'https://assets5.lottiefiles.com/packages/lf20_tzgkqzam.json',
+            //   height: 200,
+            //   width: 200,
+            //   reverse: true,
+            //   animate: true,
+            // ),
+            SizedBox(height: 20),
+            Lottie.asset(
+              'assets/welcome/animation_book.json',
+              height: 300,
+              width: 300,
+              reverse: true,
+              animate: true,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
